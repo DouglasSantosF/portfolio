@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&display=swap');
 .homeContainer {
  color:rgb(206, 192, 192);
  font-weight: 100;
@@ -6,7 +6,7 @@
  width: 1200px;
  margin-left: 120px;
  justify-content: space-between;
- font-family: 'Ubuntu', sans-serif;
+ font-family: 'Anek Malayalam', sans-serif;
 }
 
 .mainHome {
@@ -23,7 +23,7 @@
 
 .mainHome p {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 17.3px;
 }
 
 .myImage img{
