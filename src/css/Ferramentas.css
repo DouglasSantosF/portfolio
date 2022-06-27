@@ -1,0 +1,40 @@
+.skills1, .skills2 {
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.skills2 {
+  margin-left: 30px;
+}
+
+.flexColumm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills1 img{
+  width: 50px;
+}
+
+.skills2 img{
+  width: 50px;
+}
+
+.ferramentas {
+  height: 200px;
+  margin-top: 50px;
+}
+
+img:hover{
+  transition: 1s;
+  opacity: 0.4;
+}
+
+.flexColumm:hover {
+  color: rgb(79, 163, 149);
+  transition: 1s;
+}

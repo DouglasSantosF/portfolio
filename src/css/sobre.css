@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+.aboutContainer {
+  margin-left: 100px;
+  color: aliceblue;
+  margin-top: 50px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+.mainAbout {
+  display: flex;
+  justify-content: space-between;
+
+  width: 900px;
+}
+
+.about {
+  width: 500px;
+  color:aliceblue;
+}
+
+.about p {
+  margin-top: 15px;
+}
+
+.contato {
+  margin-top: 20px;
+}
+
+.linkedin, .github {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  align-items: center;
+  color: antiquewhite;
+}
+
+.github img, .linkedin img, .email img {
+  width: 20px;
+}
+
+.titleContato {
+  margin-bottom: 15px;
+}
+
+.titleFerramentas {
+  margin-top: 15px;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+  margin-left: 5px;
+}
+
+.linkedin {
+  width: 240px;
+}

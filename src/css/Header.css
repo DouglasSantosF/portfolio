@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  height: 90px;
+  margin-left: 100px;
+}
+
+.ul-container {
+  width: 500px;
+  justify-content: space-between;
+}
+
+.main-nav a {
+  color: #99c7f5;
+  background-color: transparent;
+  display: block;
+  height: 50px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.4s;
+  width: 100px;
+}
+
+.main-nav a:hover {
+  color: #78a2cc;
+  opacity: 0.9;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.main-nav li {
+  width: 100px;
+  text-align: center;
+  position: relative;
+}
+
+ .project:hover .submenu > li {
+  display:inline-block;
+  top: 0px;
+  background-color:#1b2936b6;
+}
+
+.submenu li {
+  display: none;
+  width: 100px;
+}
+
+.submenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  background-color: transparent;
+}
+
+.test {
+  color: blue;
+}
+
+.mongoDBIcon {
+  font-size: 50px;
+}
+
+i {
+  font-size: 50px;
+  color: #2c74bd;
+}
+
+.shadow {
+  
+ /*  text-shadow: #720c36 0px 3px 2px ; */
+  text-decoration: overline;
+  
+}

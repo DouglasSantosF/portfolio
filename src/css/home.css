@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+.homeContainer {
+ color:rgb(206, 192, 192);
+ font-weight: 100;
+ display: flex;
+ width: 1200px;
+ margin-left: 120px;
+ justify-content: space-between;
+ font-family: 'Ubuntu', sans-serif;
+}
+
+.mainHome {
+  width: 600px;
+  background-color: rgba(48, 11, 11, 0.185);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.mainHome:hover {
+  background-color: rgba(48, 11, 11, 0.185);
+  color: rgb(255, 255, 255);
+}
+
+.mainHome p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.myImage img{
+  width: 550px;
+}
+
+.myImage img:hover {
+  opacity: 0.8;
+}
