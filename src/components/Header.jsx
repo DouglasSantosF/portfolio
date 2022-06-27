@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import estadoBackground from '../context';
 import { Link } from 'react-router-dom';
 import '../css/Header.css';
-import backTeste from '../images/background/homeImage.jpg';
 
 const Header =() => {
 
